@@ -4,8 +4,8 @@ angular.module("todoListApp", [])
     //Otherwise, it looks for the app instead of creating it
 
 .controller('mainCtrl', function($scope) {
-    $scope.helloWorld = function() {
-        console.log("Hello there! This is the helloWorld controller function.");
+    $scope.learningNgChange = function() {
+        console.log("An input changed!");
     };
 
     $scope.todos = [
